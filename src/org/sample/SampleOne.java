@@ -11,12 +11,18 @@ public class SampleOne {
 
 	}
 	
+	private void tc4() {
+		System.out.println("TC4");
+
+	}
+	
 	public static void main(String[] args) {
 		
 		SampleOne s=new SampleOne();
 		
 		s.sysyt();
 		s.tc2();
+		s.tc4();
 	}
 
 }
